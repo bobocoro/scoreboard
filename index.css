@@ -4,7 +4,9 @@
 }
 
 body {
-    margin: 0;
+    display:flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     background-color: #1B244A ;
     font-family: 'Verdana';
     font-weight: bolder;
@@ -79,4 +81,9 @@ h2 {
 #save-el {
     font: 'Cursed Timer ULiL';
     font-weight: bold;
+}
+
+.centrebox {
+    width: 600px;
+    height: 600px;
 }
